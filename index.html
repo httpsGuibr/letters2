@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>perdonami
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Pop-up inicial -->
+    <div id="popup" class="popup">
+        <p>Eu sei que errei,<br> mas queria que você lê-se isso.</p>
+        <button id="nextButton">Próximo</button>
+    </div>
+
+    <!-- Página com a imagem do "PDF" -->
+    <div id="imagePage" class="hidden">
+        <img src="model.jpg" alt="PDF convertido para imagem" id="img2">
+        <button id="nextToHeart">Próximo</button>
+    </div>
+
+    <!-- Tela do coração -->
+    <div id="heartPage" class="hidden">
+        <canvas id="heartCanvas"></canvas>
+        <p id="forgiveText">Me perdoa.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
